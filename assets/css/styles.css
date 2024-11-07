@@ -97,6 +97,12 @@ img{
     margin-bottom: 5%;
 }
 
+.carousel-artigo img{
+    overflow: hidden;
+    width: 687px;
+    height: 250px;
+}
+
 .carousel img:hover{
     border: 5px solid #e3e3e381;
     transition: 0.2s;
