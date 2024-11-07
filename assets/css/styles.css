@@ -29,6 +29,11 @@
     height: 30vh;
 }
 
+.baixo-mapa img{
+    height: 30vh;
+    width: 56%;
+}
+
 .baixo-cont-mapa {
     margin: 8px;
     width: 40%;
@@ -95,6 +100,7 @@ img{
 .carousel img:hover{
     border: 5px solid #e3e3e381;
     transition: 0.2s;
+    transform: scale(1.1);
 }
 
 .li-bullet-0{
@@ -109,7 +115,7 @@ img{
 
 .c19{
     font-size: 40px;
-    margin-left: 6%;
+    margin-left: 12%;
 }
 
 .body-text p{
