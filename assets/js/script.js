@@ -10,7 +10,7 @@ let map = new L.map('map', mapOptions);
 let layer = new L.TileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png');
 map.addLayer(layer);
 
-let marker = new L.marker([53.01, 27.77], {
+let marker = new L.marker([43.306, 45.698], {
     riseOnHover: true,
     title: 'Teste'
 });
