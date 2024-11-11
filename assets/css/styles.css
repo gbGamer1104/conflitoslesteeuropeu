@@ -90,29 +90,15 @@ img {
     font-size: x-large;
 }
 
+.title{
+    text-align: center;
+}
+
 .body-text img:not(.carousel img) {
     margin-left: 30%;
     width: 601.70px;
     margin-top: 5%;
     margin-bottom: 5%;
-}
-
-.body-text p {
-    text-indent: 5%;
-}
-
-.body-text li {
-    text-indent: 2%;
-}
-
-.c12 {
-    font-size: 30px;
-    font-weight: bold;
-}
-
-.c19 {
-    font-size: 40px;
-    margin-left: 12%;
 }
 
 .li-bullet-0 {
