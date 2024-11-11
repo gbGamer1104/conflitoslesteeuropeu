@@ -12,20 +12,17 @@
 }
 
 .navbar-custom .nav-link {
-    color: #bccdff;
+    color: #ffffffff;
 }
 
-.navbar-custom .nav-item .active {
-    color: #ffffff;
+.navbar-custom .collapse {
+    display: flex;
+    justify-content: center;
 }
 
 .nav-item {
     font-size: 20px;
     margin-right: 4%;
-}
-
-.navbar-brand{
-    margin-right: 8.5%;
 }
 
 .main-container {
