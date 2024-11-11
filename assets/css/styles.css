@@ -115,11 +115,6 @@ img {
     margin-left: 12%;
 }
 
-.cont-mapa h3{
-    text-align: center;
-    margin-left: 15%;
-}
-
 .li-bullet-0 {
     margin-left: 8%;
     margin-right: 8%;
@@ -271,7 +266,7 @@ body {
 }
 
 #cont-mapa h3 {
-    margin-left: 20%;
+    align-self: center;
     margin-top: 25%;
 }
 

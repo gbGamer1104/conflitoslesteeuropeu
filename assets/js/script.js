@@ -65,8 +65,6 @@ marker5.addTo(map);
 marker6.addTo(map);
 
 
-document.getElementById('cont-mapa').innerHTML = "<h3>Clique em algum dos PINs!</h3>";
-
 
 marker.on('click', function(e) {
     console.log(has_been_clicked)
