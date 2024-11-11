@@ -1,5 +1,6 @@
 .nav-buttons {
-   
+    display: flex;
+    justify-content: flex-start;
 }
 
 .navbar-custom {
@@ -17,18 +18,19 @@
 
 .navbar-custom .collapse {
     display: flex;
-    justify-content: center;
+    justify-content: left;
 }
 
 nav .container-fluid .navbar-collapse .navbar-nav ul{
-    text-align: center;
+    text-align: left;
 }
 
 .navbar-brand{
-    margin-right: 6%;
+    margin-right: 18%;
 }
 
 .nav-item {
+    align-self: left;
     font-size: 20px;
     margin-right: 4%;
 }
@@ -530,3 +532,27 @@ body {
 .colum-ref4:hover .ref-caption {
     opacity: 1;
 }
+
+footer {
+background-color: #2653db;
+color: #fff;
+padding: 20px;
+margin-top: 2%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.logo {
+font-size: 1.2em;
+font-weight: bold;
+}
+
+.contact-info {
+text-align: right;
+}
+
+.contact-info p {
+margin: 5px 0;
+}
+
