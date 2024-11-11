@@ -1,5 +1,5 @@
 .nav-buttons {
-    margin-left: 18%;
+   
 }
 
 .navbar-custom {
@@ -20,6 +20,10 @@
     justify-content: center;
 }
 
+nav .container-fluid .navbar-collapse .navbar-nav ul{
+    text-align: center;
+}
+
 .navbar-brand{
     margin-right: 6%;
 }
@@ -27,6 +31,10 @@
 .nav-item {
     font-size: 20px;
     margin-right: 4%;
+}
+
+.dropdown-item {
+    text-align: left;
 }
 
 .main-container {
@@ -267,6 +275,7 @@ body {
 }
 
 #cont-mapa h3 {
+    font-size: large;
     align-self: center;
     margin-top: 25%;
 }
